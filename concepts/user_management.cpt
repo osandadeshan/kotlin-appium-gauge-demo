@@ -1,0 +1,15 @@
+<pre>
+Project Name    : kotlin-appium-gauge-demo
+Developer       : Osanda Deshan
+Version         : 1.0.0
+Date            : 4/19/2020
+Time            : 6:28 PM
+Description     : This is a concept file which contains reusable set of steps for user management
+</pre>
+
+
+
+# Login with email <email> and password <password>
+
+* Click on Sign In button
+* Login to the application using email <email> and password <password>
