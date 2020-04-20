@@ -66,7 +66,7 @@
 
 ## Tested On
 
-|    					|Version    	|
+|OS/Tool				|Version    	|
 |-----------------------|---------------|
 |Operating System 		|Windows 10 	|
 |Appium Desktop Client 	|1.15.1 		|
