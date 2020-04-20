@@ -1,9 +1,9 @@
 package com.gauge.kotlin.util
 
+import com.gauge.kotlin.util.Driver.Companion.driver
 import com.thoughtworks.gauge.screenshot.ICustomScreenshotGrabber
 import org.openqa.selenium.OutputType
 import org.openqa.selenium.TakesScreenshot
-import org.openqa.selenium.WebDriver
 
 /**
  * Project Name    : kotlin-appium-gauge-demo
@@ -16,11 +16,9 @@ import org.openqa.selenium.WebDriver
 
 class CustomScreenshotGrabber : ICustomScreenshotGrabber {
 
-    private val driver: WebDriver? = Driver.driver
-
     // Return a screenshot byte array
-    override fun takeScreenshot(): ByteArray {
-        return (driver as TakesScreenshot?)!!.getScreenshotAs(OutputType.BYTES)
+    override fun takeScreenshot(): ByteArray? {
+        return (driver as TakesScreenshot).getScreenshotAs(OutputType.BYTES)
     }
 
 

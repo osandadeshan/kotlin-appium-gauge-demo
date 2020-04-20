@@ -15,10 +15,8 @@
         <kotlin.version>1.3.71</kotlin.version>
         <kotlin.code.style>official</kotlin.code.style>
         <gauge.version>0.7.3</gauge.version>
-        <junit.version>4.12</junit.version>
-        <selenium.version>3.14.0</selenium.version>
         <appium.version>7.0.0</appium.version>
-        <bonigarcia.version>3.7.1</bonigarcia.version>
+        <junit.version>4.12</junit.version>
     </properties>
 
     <dependencies>
@@ -39,31 +37,15 @@
             <version>${gauge.version}</version>
         </dependency>
         <dependency>
-            <groupId>org.seleniumhq.selenium</groupId>
-            <artifactId>selenium-java</artifactId>
-            <version>${selenium.version}</version>
-        </dependency>
-        <dependency>
-            <groupId>org.seleniumhq.selenium</groupId>
-            <artifactId>selenium-support</artifactId>
-            <version>${selenium.version}</version>
-        </dependency>
-        <dependency>
-            <groupId>io.github.bonigarcia</groupId>
-            <artifactId>webdrivermanager</artifactId>
-            <version>${bonigarcia.version}</version>
-            <scope>test</scope>
+            <groupId>io.appium</groupId>
+            <artifactId>java-client</artifactId>
+            <version>${appium.version}</version>
         </dependency>
         <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
             <version>${junit.version}</version>
             <scope>test</scope>
-        </dependency>
-        <dependency>
-            <groupId>io.appium</groupId>
-            <artifactId>java-client</artifactId>
-            <version>${appium.version}</version>
         </dependency>
     </dependencies>
 
