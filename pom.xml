@@ -16,7 +16,7 @@
         <kotlin.code.style>official</kotlin.code.style>
         <gauge.version>0.7.3</gauge.version>
         <appium.version>7.0.0</appium.version>
-        <junit.version>4.12</junit.version>
+        <junit.version>4.13.1</junit.version>
     </properties>
 
     <dependencies>
