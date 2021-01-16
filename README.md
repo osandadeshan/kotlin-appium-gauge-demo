@@ -1,5 +1,4 @@
-# Mobile Web App Automation
-<br />
+# Mobile Web Application Automation Using Kotlin, Appium and Gauge
 
 ## Pre Requisites
 1. Java
@@ -7,7 +6,6 @@
 3. Android Studio
 4. Maven
 5. IntelliJ IDEA
-<br />
 
 ## How to Install Gauge Core
 
@@ -35,7 +33,6 @@
 3. Finally, install Gauge using these commands. \
 `sudo apt-get update` \
 `sudo apt-get install gauge`
-<br />
 
 ## How to Install Gauge Plugins
 1. Open Command Prompt and execute following commands. \
@@ -62,7 +59,6 @@
     spectacle (<version number>)
     xml-report (<version number>)
 ```
-<br />
 
 ## Tested On
 
@@ -73,4 +69,3 @@
 |Android Studio			|3.5			|
 |Android Emulator    	|8.0			|
 |Chrome     			|80.0.3987.162  |
-
